@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    height: 100%;
+    margin-left: 80px;
+    margin-right: 30px;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    
+
+}
+.header img{
+    width: 20vw;
+    height: 3vh;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+}
+ul li a:hover{
+    color: black;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+}
+.cart img{
+    height: 5vh;
+    width: 5vw;
+}
+
+.avatar{
+    /* width: 10vw; */
+    height: 10vh;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 4px; */
+
+
+}
+.left{
+    width: 47%;   
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.jpg{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.jpg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 5%;
+    padding: 20px;
+    
+}
+.images img{
+    height: 9vh;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.image1{
+    border: 3px solid orange;
+    background-color: hsl(25, 100%, 94%);
+    
+}
+.image2{
+    background-color: hsl(25, 100%, 94%);
+}
+.right{
+    width: 47%;
+    height: 90%;
+    
+}
+.sneaker{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    height: 70%;
+}
+.sneaker h2{
+    margin-top: 30px;
+    color: hsl(26, 100%, 55%);
+    font-size: 18px;
+}
+.sneaker h1{
+    font-weight: bolder;
+    /* margin: 2px; */
+}
+.sneaker p{
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+.sneaker p2{
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.sneaker span{
+    font-weight: lighter;
+    color: hsl(26, 100%, 55%);
+    font-size: 12px;
+    border: 1px solid;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 10%;
+    padding: 6px;
+}
+.add{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.add button{
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    flex-shrink: 0;
+    cursor: pointer;
+    
+}
